@@ -1,0 +1,56 @@
+@font-face {
+	font-family: sifonn;
+	src:url(../fonts/sifonn_basic.otf);
+}
+
+
+
+html,body {
+	width:100%;
+	height: 100%;
+}
+#cover {
+	width:100%;
+	height: 100%;
+	background: url("../images/photo-large.jpg") center fixed; 
+	background-repeat: no-repeat;
+	-webkit-background-size:cover;
+}
+/*#cover:hover {
+	width:50%;
+	height:50%;
+	background: url("../images/guy.jpg") center fixed; 
+	background-repeat: no-repeat;
+	-webkit-transition: .5s;
+}
+
+*/
+
+.title {
+	/*width:500px;*/
+	font-family: Montserrat;
+	font-size: 5em;
+	color: white;
+	letter-spacing:0em;
+	text-rendering:optimizelegibility;
+	text-align:right;
+	float: right;
+	line-height:10pt;
+	margin-top: 400px;
+
+}
+
+.text {
+		font-family: 'Open Sans Condensed';
+		width:800px;
+		margin-left: 20px;
+}
+
+.pic {
+	background: url("../images/guy.jpg")
+width: 300px;
+height: auto;
+position: relative;
+float: right;
+margin-right: 50px;
+}
